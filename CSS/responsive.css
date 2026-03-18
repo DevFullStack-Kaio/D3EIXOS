@@ -1,0 +1,20 @@
+/* Ajustes para tablets */
+@media (max-width: 768px) {
+  .grafico {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .label {
+    font-size: 0.9rem;
+  }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 480px) {
+  .grafico {
+    padding: 5px;
+  }
+  .label {
+    font-size: 0.7rem;
+  }
+}

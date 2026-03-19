@@ -1,13 +1,15 @@
 #grafico {
-  display: flex;              /* ativa flexbox */
-  justify-content: center;    /* centraliza horizontalmente */
-  align-items: center;        /* centraliza verticalmente */
-  margin: 20px 0;             /* opcional, dá espaço acima/abaixo */
+    display: flex;
+    justify-content: center;   /* centraliza horizontal */
+    margin: 20px 0;
 }
 
 #grafico svg {
-  display: block;  /* garante que o svg se comporte como bloco */
-  margin: 0 auto;  /* centraliza horizontalmente */
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;   /* controla largura do gráfico */
+    width: 100%;        /* responsivo */
+    height: auto;
 }
 
 .barra {
@@ -33,13 +35,15 @@
 }
 
 #grade line {
-    stroke: #aaa;
-    stroke-dasharray: 2, 2;
+    stroke: #bbb;
+    stroke-dasharray: 4, 4;
 }
 
 figure {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 figcaption {

@@ -1,0 +1,19 @@
+#legenda {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+#legenda.crescente {
+  color: green;
+}
+
+#legenda.decrescente {
+  color: red;
+}
+
+#legenda.alfabetica {
+  color: blue;
+}

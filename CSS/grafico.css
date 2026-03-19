@@ -34,3 +34,10 @@ figcaption {
     font-size: xx-large ;
     font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  font-size: 12px; /* opcional, para ajustar o tamanho */
+  color: #555;     /* opcional, para suavizar a cor */
+  margin-top: 20px;
+}

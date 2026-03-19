@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D3EIXO</title>
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/grafico.css">
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="grafico.js"></script>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/grafico.css">
+    <link rel="stylesheet" href="css/legenda.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="js/grafico.js"></script>
+    <script src="js/legenda.js"></script>
+    <script src="js/tooltip.js"></script>
+    
 <script>
     const clicado = (d) => alert(d.chave + ' = ' + d.valor);
     onload = () => {
@@ -45,6 +50,7 @@
         };
     };
 </script>
+
 </head>
 <body>
 <figure>
@@ -56,6 +62,12 @@
     <button id="alfabetica">Ordem alfabética</button>
    </p>
 </figure>
+
+<footer>
+    <span>
+        &copy; Vanderlei Jose da Silva, 2026 - Todos os direitos reservados.
+    </span>
+</footer>
 
 </body>
 </html>

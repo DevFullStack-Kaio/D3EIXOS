@@ -1,17 +1,29 @@
 #grafico {
-   shape-rendering: crispEdges;
+  display: flex;              /* ativa flexbox */
+  justify-content: center;    /* centraliza horizontalmente */
+  align-items: center;        /* centraliza verticalmente */
+  margin: 20px 0;             /* opcional, dá espaço acima/abaixo */
 }
+
+#grafico svg {
+  display: block;  /* garante que o svg se comporte como bloco */
+  margin: 0 auto;  /* centraliza horizontalmente */
+}
+
 .barra {
     stroke: black;
 }
+
 .rotulo {
     text-anchor: middle;
 }
+
 #eixoX text {
     font-size: 120%;
     text-anchor: end;
     transform: translate(-8px, 2px) rotate(-45deg);
 }
+
 #eixoY text {
     font-size: 120%;
 }

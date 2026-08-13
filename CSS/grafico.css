@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(135deg, #f5deb3, #d2b48c);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 #grafico {
     display: flex;
     justify-content: center;   /* centraliza horizontal */
@@ -57,6 +64,11 @@ figure {
     margin: 5px;
     padding: 6px 12px;
     cursor: pointer;
+}
+
+#button:hover {
+  background: linear-gradient(135deg, #a0522d, #8b4513);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 figcaption {
